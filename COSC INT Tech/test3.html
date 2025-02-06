@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature-Rich HTML Page</title>
+    <style>
+        /* Simple styling for layout */
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, nav, section, footer { padding: 15px; border: 1px solid #ccc; margin-bottom: 10px; }
+        nav ul { list-style-type: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        table, th, td { border: 1px solid black; }
+        form { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <!-- Header section with a title -->
+    <header>
+        <h1>Welcome to My Feature-Rich Webpage</h1>
+    </header>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Section showcasing different elements -->
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>This page demonstrates various HTML elements such as lists, tables, forms, and multimedia.</p>
+        
+        <!-- Ordered List -->
+        <h3>Features Included:</h3>
+        <ol>
+            <li>Navigation Menu</li>
+            <li>Tables</li>
+            <li>Forms</li>
+            <li>Images and Videos</li>
+            <li>Audio</li>
+        </ol>
+    </section>
+    
+    <!-- Table Example -->
+    <section>
+        <h2>Sample Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Occupation</th>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>Engineer</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+    </section>
+    
+    <!-- Image and Video Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+        <video width="320" height="240" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+    <!-- Audio Example -->
+    <section>
+        <h2>Audio Example</h2>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
