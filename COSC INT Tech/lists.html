@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Example</title>
+    <style>
+        /* Styling for the ordered list */
+        .ordered_list {
+            float: left;
+            width: 50%;
+        }
+
+        /* Styling for the unordered list */
+        .unordered_list {
+            float: left;
+            width: 50%;
+        }
+
+        /* Clear floats to ensure proper layout */
+        .clear {
+            clear: both;
+        }
+
+        /* Remove default list styling for unordered list */
+        .unordered_list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Styling for links in the unordered list */
+        .unordered_list a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* Add underline and change color on hover */
+        .unordered_list a:hover {
+            text-decoration: underline;
+            color: #2759d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Unordered List Section -->
+        <div class="unordered_list">
+            <h2>Unordered List</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+
+        <!-- Ordered List Section -->
+        <div class="ordered_list">
+            <h2>Ordered List</h2>
+            <ol>
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+                <li>Fourth Item</li>
+            </ol>
+        </div>
+
+        <!-- Clear floats -->
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
