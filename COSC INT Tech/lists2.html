@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Example</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Unordered list styles */
+        .unordered_list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .unordered_list a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .unordered_list a:hover {
+            text-decoration: underline;
+            color: #2759d9;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .footer-lists {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-list {
+            flex: 1;
+            min-width: 150px;
+            margin: 10px;
+        }
+
+        .footer-list h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .footer-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer-list li {
+            margin-bottom: 8px;
+        }
+
+        .footer-list a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .footer-list a:hover {
+            text-decoration: underline;
+            color: #2759d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Unordered List Section -->
+        <div class="unordered_list">
+            <h2>Unordered List</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+
+        <!-- Ordered List Section -->
+        <div class="ordered_list">
+            <h2>Ordered List</h2>
+            <ol>
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+                <li>Fourth Item</li>
+            </ol>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-lists">
+                <!-- List 1 -->
+                <div class="footer-list">
+                    <h3>About Us</h3>
+                  <img src="">
+                </div>
+
+                <!-- List 2 -->
+                <div class="footer-list">
+                    <h3>Visit</h3>
+                    <ul>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Hours</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+
+                <!-- List 3 -->
+                <div class="footer-list">
+                    <h3>Admissions</h3>
+                    <ul>
+                        <li><a href="#">Apply</a></li>
+                        <li><a href="#">Tuition</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <!-- List 4 -->
+                <div class="footer-list">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- List 5 -->
+                <div class="footer-list">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Social Media</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- List 6 -->
+                <div class="footer-list">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
