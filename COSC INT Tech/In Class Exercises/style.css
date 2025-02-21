@@ -1,0 +1,12 @@
+/* Style for the paragraph */
+.myParagraphStyle {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* Style for the colored headings */
+.colorHeadings {
+    color: #4CAF50; /* Green color for headings */
+    font-family: Arial, sans-serif;
+}
