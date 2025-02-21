@@ -29,10 +29,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* This is the thick header */
+/*Linear gradient to add that smooth look*/
 header {
     text-align: center;
     padding: 20px;
-    background-color: #4c57af;
+    background: linear-gradient(to bottom, #4c57af, #a2b5f1);
     color: white;
 }
 
